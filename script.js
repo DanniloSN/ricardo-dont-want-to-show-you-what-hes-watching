@@ -6,6 +6,11 @@ const images = {
   100: "5.png",
 };
 
+Object.values(images).forEach((image) => {
+  const img = new Image();
+  img.src = image;
+});
+
 new IntersectionObserver(
   (entries) => {
     if (entries.some((entry) => entry.isIntersecting)) {
