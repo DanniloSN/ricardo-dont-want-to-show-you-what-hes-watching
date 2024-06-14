@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: black;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+}
+
+div {
+    height: 90vh;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
